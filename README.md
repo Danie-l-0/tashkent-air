@@ -45,3 +45,37 @@ mysql -u root -p < schema.sql
 
 ### 3. .env fayli yaratish
 Loyiha papkasida `.env` fayli yarating:
+### 4. Ishga tushirish
+```bash
+python3 main.py
+```
+
+## AQI darajalari
+
+| AQI | Daraja | Tavsif |
+|-----|--------|--------|
+| 1 | Yaxshi | Havo toza |
+| 2 | O'rtacha | Sezgir odamlar ehtiyot bo'lsin |
+| 3 | Sezgirlar uchun zararli | Tashqarida kam vaqt o'tkazing |
+| 4 | Zararli | Hamma ehtiyot bo'lsin |
+| 5 | Juda zararli | Tashqariga chiqmang |
+
+## Loyiha tuzilmasi
+## Cheklovlar
+
+- Pipeline faqat kompyuter yoqilgan va skript ishga tushirilgan
+  vaqtda ishlaydi
+- OpenWeatherMap bepul tarifi — soatiga 60 ta so'rov limiti bor
+- Bitta sensor nuqtasi — shaharning turli tumanlarini taqqoslab
+  bo'lmaydi
+
+## Kelajakdagi rejalar
+
+- [ ] Server (Railway/Render) orqali 24/7 ishlash
+- [ ] Telegram bot — AQI yuqori bo'lganda ogohlantirish
+- [ ] Turli tumanlar bo'yicha taqqoslash
+- [ ] Ob-havo ma'lumotlari bilan korrelyatsiya
+
+## Muallif
+Abdumuhtorov Muhammadazim
+**Muhammadazim Abdumuhtorov** — Data Analyst
