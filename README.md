@@ -77,5 +77,5 @@ python3 main.py
 - [ ] Ob-havo ma'lumotlari bilan korrelyatsiya
 
 ## Muallif
-Abdumuhtorov Muhammadazim
-**Muhammadazim Abdumuhtorov** — Data Analyst
+
+**Muhammadazim Abdumuhtorov** 
